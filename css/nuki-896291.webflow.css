@@ -1,0 +1,643 @@
+.body {
+  background-color: #6de4ff;
+}
+
+.section_hero {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.hero_grass {
+  background-image: url('../images/hero_gras.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 30%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.hero_fur {
+  background-image: url('../images/hero_fur.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 100px;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.hero_chara {
+  height: 68%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.logo {
+  height: 30%;
+  position: absolute;
+  inset: 14% auto auto;
+}
+
+.header {
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 15px 15px 35px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.header_left {
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  display: flex;
+}
+
+.header_right {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.social_button {
+  color: #4e3d33;
+  background-color: #ede2cf;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+}
+
+.social_button:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.menu_link {
+  color: #4b3c32;
+  background-color: #0000;
+  border: 1px #000;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-left: 0;
+  margin-right: 35px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+}
+
+.menu_link:hover {
+  color: #fff;
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.section_about {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.section_ca {
+  background-color: #e0dcc9;
+  border-top: 3px solid #4e3d33;
+  border-bottom: 3px #4e3d33;
+  width: 100%;
+  height: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.block_ca {
+  background-color: #6a654f;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.ca {
+  color: #e3e3d8;
+  font-family: Comic Kings, sans-serif;
+  font-size: 20px;
+}
+
+.copy {
+  color: #4e3d33;
+  background-color: #ede2cf;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+}
+
+.copy:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.about_fur {
+  background-image: url('../images/hero_fur.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 100px;
+  position: static;
+  inset: auto 0% 0%;
+  transform: rotate(180deg);
+}
+
+.h1 {
+  color: #504b42;
+  margin-top: 50px;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  position: relative;
+}
+
+.block_about {
+  background-color: #e0dcc9;
+  border: 3px solid #000;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 650px;
+  height: auto;
+  margin-top: 50px;
+  padding: 15px;
+  display: flex;
+}
+
+.block_about_middle {
+  background-color: #504b42;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.block_about_in {
+  background-color: #373229;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 35px 25px;
+  display: flex;
+}
+
+.para {
+  color: #e0dcc9;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+  font-family: Comic Kings, sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.section_tokenomics {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+}
+
+.block_tokenomics {
+  background-color: #e0dcc9;
+  border: 3px solid #000;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 650px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+}
+
+.block_tokenomics_middle {
+  background-color: #504b42;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.block_tokenomics_in {
+  background-color: #373229;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  padding: 35px 25px;
+  display: flex;
+}
+
+.text-block {
+  color: #e0dcc9;
+  font-family: Comic Kings, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.tokenomics_block {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -43px;
+  display: flex;
+  position: relative;
+}
+
+.chara_tokenomics {
+  height: 450px;
+  margin-top: -45px;
+  position: relative;
+}
+
+.tokenomics_grass {
+  background-image: url('../images/hero_gras.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 30%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.separator {
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  position: relative;
+  transform: skew(0deg, 5deg);
+}
+
+.separator_top {
+  background-image: url('../images/hero_fur.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 80px;
+  position: static;
+  inset: 0% 0% auto;
+}
+
+.separator_bottom {
+  background-image: url('../images/hero_fur.svg');
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 100px;
+  position: static;
+  inset: auto 0% 0%;
+  transform: rotate(180deg);
+}
+
+.separator_middle {
+  background-color: #b5ae8d;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.button_buy {
+  color: #4e3d33;
+  background-color: #ede2cf;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+}
+
+.button_buy:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.section_socials {
+  background-color: #4bcfdd;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.block_socials {
+  background-color: #e0dcc9;
+  border: 3px solid #000;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 650px;
+  height: auto;
+  margin-top: 50px;
+  padding: 15px;
+  display: flex;
+}
+
+.block_socials_middle {
+  background-color: #504b42;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.block_socials_in {
+  background-color: #373229;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 35px 25px;
+  display: flex;
+}
+
+.div-block {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+
+.social_footer {
+  color: #4e3d33;
+  background-color: #ede2cf;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+}
+
+.social_footer:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.chara_footer {
+  height: 400px;
+  margin-top: -56px;
+}
+
+.buy {
+  color: #4b3c32;
+  background-color: #0000;
+  border: 1px #000;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-left: 0;
+  margin-right: 35px;
+  padding: 0;
+  font-family: Super Ocean Personal Use, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+}
+
+.buy:hover {
+  color: #fff;
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.ca_mobile {
+  color: #e3e3d8;
+  font-family: Comic Kings, sans-serif;
+  font-size: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .menu_link {
+    display: none;
+  }
+
+  .section_about {
+    height: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 90%;
+    height: auto;
+  }
+
+  .section_about {
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .ca {
+    display: none;
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .block_about {
+    width: 90%;
+  }
+
+  .block_tokenomics {
+    width: 100%;
+  }
+
+  .text-block {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .tokenomics_block {
+    width: 90%;
+  }
+
+  .chara_tokenomics {
+    height: 400px;
+    margin-top: -10px;
+  }
+
+  .separator {
+    margin-top: 102px;
+  }
+
+  .block_socials {
+    width: 90%;
+  }
+
+  .div-block {
+    flex-flow: column;
+  }
+
+  .social_footer {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .chara_footer {
+    height: 350px;
+  }
+
+  .ca_mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero_chara {
+    width: 90%;
+    height: auto;
+  }
+
+  .header {
+    justify-content: center;
+    padding-left: 15px;
+  }
+
+  .header_left {
+    display: none;
+  }
+
+  .header_right {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .social_button {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .section_about {
+    height: auto;
+  }
+
+  .h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .chara_tokenomics {
+    height: 300px;
+  }
+
+  .separator {
+    margin-top: 0;
+    transform: none;
+  }
+
+  .chara_footer {
+    height: 250px;
+  }
+
+  .buy {
+    display: none;
+  }
+}
+
+
+@font-face {
+  font-family: 'Comic Kings';
+  src: url('../fonts/Comic-Kings.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Super Ocean Personal Use';
+  src: url('../fonts/Super-Ocean-Personal-Use.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
